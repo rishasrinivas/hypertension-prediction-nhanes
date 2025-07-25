@@ -37,3 +37,44 @@ hypertension-prediction-nhanes/
 │
 ├── requirements.txt             # List of required Python packages
 └── README.md                    # Project overview and usage instructions
+
+text
+
+## 🚀 Getting Started  
+
+### 1. Clone the repository  
+```bash
+git clone https://github.com/your-username/hypertension-prediction-nhanes.git
+cd hypertension-prediction-nhanes
+2. Install dependencies
+bash
+pip install -r requirements.txt
+3. Run the pipeline
+bash
+python src/phase-1.py
+# 🔍 Exploring Individual Components
+
+training_splitting.py - Data splitting
+
+building_models.py - Model fitting and results generation
+
+# 📊 Key Outputs
+Output File	Description
+logistic_regression_model_results.csv	Model performance metrics
+odds_ratios_confidence_intervals.csv	OR & 95% CI for interpretability
+figures/	Visualizations (EDA & model diagnostics)
+3C.pdf	Final analytical report
+# 📚 Data Source
+All data used are sourced from the official CDC NHANES Portal.
+
+# 🧠 Methodology Summary
+Hypertension definition: Using SBP, DBP, and medication status
+
+Primary model: Logistic regression (for interpretability)
+
+Evaluation metrics: Accuracy, ROC-AUC, confusion matrix
+
+Visualization tools: matplotlib, seaborn, pandas
+
+# 🧑‍💻 Authors
+Risha Reddy Mukkisa
