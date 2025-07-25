@@ -1,0 +1,2 @@
+best_model,predictors,coefficients,odds_ratios,p_values,performance
+Model A,['BMXBMI'],"{'const': np.float64(-1.8964288444487964), 'BMXBMI': np.float64(0.0513063178356211)}","{'const': np.float64(0.15010370689945046), 'BMXBMI': np.float64(1.052645287929343)}","{'const': np.float64(3.839012763782615e-38), 'BMXBMI': np.float64(2.3700554440067716e-27)}","{'accuracy': 0.5932388222464559, 'auc': np.float64(0.6274528570446938)}"
